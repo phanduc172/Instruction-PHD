@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "add": "^2.0.6",
+    "bootstrap": "^5.2.3",
+    "jquery": "^3.6.4",
+    "or": "^0.2.0",
+    "owl.carousel": "^2.3.4",
+    "yarn": "^1.22.19"
+  }
+}

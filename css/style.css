@@ -1,0 +1,375 @@
+/*Global*/
+body,html {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+}
+
+/* HEADER */
+.header__top {
+    background-color: #ff4f81;
+    font-size: 14px;
+}
+
+.header__top a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.header__left a:hover {
+    color: black !important;
+    text-decoration: none;
+}
+
+.header__right a {
+    width: 30px;
+    width: 30px;
+    background-color: black;
+    border: 1px solid black;
+    display: inline-block;
+    text-align: center;
+    line-height: 30px;
+    margin-left: 0.25rem;
+}
+
+.header__right a:hover{
+    background-color: #ff4f81;
+    border: 1px solid white;
+    transition: all 0.5s;
+}
+
+.navInstruction a {
+    color: black;
+}
+
+.navInstruction .navbar-brand p:first-child {
+    font-size: 36px;
+}
+
+.navInstruction .navbar-brand p:last-child {
+    font-size: 11px;
+    color: #ff4f81;
+    letter-spacing: 3px;
+}
+
+.navInstruction .navbar-brand p:first-child i{
+    transform: skewX(-10deg);
+}
+
+#navbarNavDropdown .nav-item {
+    margin: 0 15px;
+}
+
+#navbarNavDropdown .nav-item::after {
+    content: "";
+    width: 0;
+    height: 2px;
+    background-color: #ff4f81;
+    display: block;
+}
+
+#navbarNavDropdown .nav-item:hover::after {
+    width: 100%;
+    transition: all 0.5s;
+}
+
+#navbarNavDropdown .nav-link {
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+#navbarNavDropdown .nav-item:hover .nav-link {
+    color: #ff4f81;
+}
+
+#navbarNavDropdown .nav-item.active .nav-link {
+    color: #ff4f81;
+}
+
+#navbarNavDropdown .nav-item.active::after {
+    width: 100%;
+}
+
+#navbarNavDropdown .dropdown-menu {
+    background-color:rgba(0,0,0,0.6);
+    border: 1px solid rgba(0,0,0,0.6);
+}
+
+#navbarNavDropdown .dropdown-item {
+    color: white;
+    transition: all 0.5s;
+}
+
+#navbarNavDropdown .dropdown-item:focus, #navbarNavDropdown .dropdown-item:hover {
+    background-color: transparent;
+    color: #ff4f81;
+}
+
+/* CAROUSEL */
+.carousel-caption .btn {
+    font-size: 14.76px;
+    padding: 0.8em 1em;
+    color: white !important;
+    border: 1px solid white;
+}
+
+.carousel-caption .btn:hover {
+    background-color: #ff4f81;
+    border-color: #ff4f81;
+}
+
+.carousel-item h5 {
+    font-size: 4vw;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.carousel-item p {
+    letter-spacing: 4px;
+    line-height: 1.8em;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    font-weight: 300;
+    width: 70%;
+}
+
+#carouselCyber .carousel-caption {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* WELCOME */
+.welcome {
+    padding: 80px 0;
+}
+
+.heading {
+    margin-bottom: 48px;
+}
+
+.heading h2 {
+    color: #ff4f81;
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    margin-bottom: 8px;
+}
+
+.heading p {
+    font-size: 17px;
+    color: black;
+    letter-spacing: 4px;
+    margin-bottom: 16px;
+}
+
+.heading p::after {
+    content: '';
+    width: 70px;
+    height: 2px;
+    background-color: black;
+    display: block;
+    margin: 20px auto;
+}
+
+.content-welcome>p{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 15px;
+    color: #999;
+    letter-spacing: 1px;
+    padding: 16px 0 80px 0;
+}
+
+.welcome-item i {
+    font-size: 2rem;
+}
+
+.welcome-item h3 {
+    font-size: 1.8rem;
+    color: #ff4f81;
+    font-weight: bold;
+    margin: 16px 0;
+}
+
+.welcome-item h4 {
+    font-size: 1rem;
+    color: black;
+    font-weight: bold;
+    margin: 16px 0 3px;
+}
+
+.welcome-item p {
+    font-size: 15px;
+    color: #999;
+    margin: 10px 0;
+    line-height: 1.8;
+    letter-spacing: 1px;
+}
+
+.welcome-col {
+    padding: 2rem;
+}
+
+/* OUR STATS */
+.ourStats {
+    background-image: url(../img/banner2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.section {
+    padding: 80px 0;
+}
+
+.heading-white p {
+    color: white;
+}
+
+.ourStats h2 {
+    color: #ff4f81;
+    font-size: 2.8rem;
+}
+
+.ourstats-item i {
+    font-size: 2rem;
+    color: white;
+}
+
+.ourstats-item h3 {
+    color: #ff4f81;
+    font-size: 1.3rem;
+    letter-spacing: 3px;
+    font-weight: bold;
+    margin: 30px 0 20px;
+}
+
+.ourstats-item p {
+    color: white;
+    font-size: 3rem;
+    letter-spacing: 2px;
+    font-weight: 300;
+}
+
+.ourStats-content {
+    text-align: center;
+    color: white;
+}
+
+/* OFFER */
+
+.offer_item {
+    padding: 25px 40px;
+    text-align: center;
+    box-shadow: 0px 1px 8px 4px rgba(158, 158, 158, 0.75);
+    margin: 10px 0;
+}
+
+.offer_item h3 {
+    font-size: 20px;
+    color: black;
+    margin: 25px 0 20px;
+}
+
+.offer_item i {
+    color: #ff4f81;
+    font-size: 40px;
+}
+
+.offer_item p {
+    color: #6b6b6b;
+}
+
+/* FEEDBACK */
+.feedback {
+    background-image: url(../img/banner3.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.feedback-content {
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.47);
+    box-shadow: 0px 1px 7px #8e8e8e;
+}
+
+.feedback-item {
+    padding: 1rem;
+    color: white;
+}
+
+.feedback-top {
+    padding: 1rem 1.5rem;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.47);
+    position: relative;
+}
+
+.feedback-top p {
+    margin: 1rem 0; 
+}
+
+.feedback-bottom {
+    display: flex;
+    justify-content: center;
+    width: 55%;
+    margin: 2rem auto 0;
+}
+
+.feedback__content .feedback__bottom img {
+    width: 28%;
+    display: inline-block;
+}
+.feedback_name {
+    margin-left: 5px;
+}
+
+.feedback_name p:first-child{
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.feedback_name p{
+    color: #ff4f81;
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.feedback-content .feedback-bottom img {
+    width: 35%;
+    display: inline-block;
+}
+
+.news-content img {
+    width: 100%;
+}
+
+.news-content h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.news-content h4 {
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color:#ff4f81;
+    margin: 1rem 0;
+}
+
+.news-content p {
+    color: #999;
+    margin-top: 1rem;
+    line-height: 1.8rem;
+    font-style: 0.9rem;
+}
+
+.news-content .row:last-child {
+    margin-top: 5rem;
+}
+
+
