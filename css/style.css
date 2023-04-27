@@ -330,17 +330,18 @@ body,html {
 .feedback_name p:first-child{
     color: white;
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 1.1rem;
 }
 
 .feedback_name p{
     color: #ff4f81;
     margin: 0;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 .feedback-content .feedback-bottom img {
     width: 35%;
+    height: 35%;
     display: inline-block;
 }
 
@@ -351,6 +352,11 @@ body,html {
 .news-content h3 {
     font-size: 1.2rem;
     font-weight: bold;
+}
+
+.news-content h3:hover {
+    color: #ff4f81;
+    cursor: pointer;
 }
 
 .news-content h4 {
